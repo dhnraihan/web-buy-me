@@ -1,0 +1,21 @@
+{
+  "name": "shoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite", 
+    "build": "tailwindcss -i css/tailwind.css -o css/tailwind-out.css --minify",
+    "watch": "tailwindcss -i css/tailwind.css -o css/tailwind-out.css --watch", 
+    "v-build": "vite build" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  }
+}
