@@ -9,3 +9,10 @@
 .mobile-menu {
     @apply block px-4 py-2 text-gray-300 hover:bg-gray-600 hover:text-white
 }
+.d-image {
+    @apply aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]
+}
+
+.h-image {
+    aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500
+}
