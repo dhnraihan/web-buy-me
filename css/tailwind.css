@@ -9,10 +9,23 @@
 .mobile-menu {
     @apply block px-4 py-2 text-gray-300 hover:bg-gray-600 hover:text-white
 }
+
+.product-list {
+    @apply grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8
+}
 .d-image {
     @apply aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]
 }
 
 .h-image {
     @apply aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500
+}
+
+.gl-icon {
+    color: var(--gl-color-icon);
+    display: inline-block;
+    height: 24px;
+    pointer-events: none;
+    vertical-align: text-top;
+    width: 24px;
 }
