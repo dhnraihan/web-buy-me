@@ -4,8 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="dark bg-gray-900 text-white">
+<!-- Nav bar Start -->
+
+    <nav class="bg-white dark:bg-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+        <!-- Logo -->
+            <div class="flex items-center">
+              <a href="#" class="text-white text-xl font-bold">MyLogo</a>
+            </div>
+        <!-- Search bar -->
+            <div class="flex ">
+                <input type="search" name="" class="rounded-full pl-2" id="" placeholder="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="" x="0px" y="0px" width="35" viewBox="0 0 48 48">
+                    <path fill="#616161" d="M34.6 28.1H38.6V45.1H34.6z" transform="rotate(-45.001 36.586 36.587)"></path><path fill="#616161" d="M20 4A16 16 0 1 0 20 36A16 16 0 1 0 20 4Z"></path><path fill="#37474F" d="M36.2 32.1H40.2V44.400000000000006H36.2z" transform="rotate(-45.001 38.24 38.24)"></path><path fill="#64B5F6" d="M20 7A13 13 0 1 0 20 33A13 13 0 1 0 20 7Z"></path><path fill="#BBDEFB" d="M26.9,14.2c-1.7-2-4.2-3.2-6.9-3.2s-5.2,1.2-6.9,3.2c-0.4,0.4-0.3,1.1,0.1,1.4c0.4,0.4,1.1,0.3,1.4-0.1C16,13.9,17.9,13,20,13s4,0.9,5.4,2.5c0.2,0.2,0.5,0.4,0.8,0.4c0.2,0,0.5-0.1,0.6-0.2C27.2,15.3,27.2,14.6,26.9,14.2z"></path>
+                    </svg>
+            </div>
+        <!-- Menu items -->
+            <div class="hidden md:block">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a href="#" class="menu-items">Home</a>
+                <a href="#" class="menu-items">About</a>
+                <a href="#" class="menu-items">Services</a>
+                <a href="#" class="menu-items">Contact</a>
+              </div>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+              <button id="menu-btn" class="text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white">
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-700">
+          <a href="#" class="mobile-menu">Home</a>
+          <a href="#" class="mobile-menu">About</a>
+          <a href="#" class="mobile-menu">Services</a>
+          <a href="#" class="mobile-menu">Contact</a>
+        </div>
+      </nav>
+<!-- Nav bar End -->
+
+<!-- search bar start-->
+
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="sr-only">Products</h2>
+  
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <a href="#" class="group">
+        <div class="relative group">
+            <!-- Default Image -->
+            <img src="assets/img/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]">
+            <!-- Hover Image -->
+            <img src="assets/img/1hover.jpg" alt="Hover Image" class="aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+        </div>
+          <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+        </a>
+        <a href="#" class="group">
+        <div class="relative group">
+            <!-- Default Image -->
+            <img src="assets/img/category-page-04-image-card-02.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]">
+            <!-- Hover Image -->
+            <img src="assets/img/2hover.jpg" alt="Hover Image" class="aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+        </div>
+          <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        </a>
+
+        
+        <div class="relative group">
+            <!-- Default Image -->
+            <img src="assets/img/1hover.jpg" alt="Default Image" class="aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]">
+            <!-- Hover Image -->
+            <img src="assets/img/3hover.jpg" alt="Hover Image" class="aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+        </div>
+
+        <a href="#" class="group">
+          <img src="assets/img/category-page-04-image-card-03.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+          <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
+        </a>
+        <a href="#" class="group hover:">
+          <img src="assets/img/category-page-04-image-card-04.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+          <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+        </a>
+        
+        <a href="#" class="group">
+            <img src="assets/img/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+            <h3 class="mt-4 text-sm text-gray-700">Earthen Bottle</h3>
+            <p class="mt-1 text-lg font-medium text-gray-900">$48</p>
+          </a>
+          <a href="#" class="group">
+            <img src="assets/img/category-page-04-image-card-02.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+            <h3 class="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
+            <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+          </a>
+          <a href="#" class="group">
+            <img src="assets/img/category-page-04-image-card-03.jpg" alt="Person using a pen to cross a task off a productivity paper card." class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+            <h3 class="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
+            <p class="mt-1 text-lg font-medium text-gray-900">$89</p>
+          </a>
+          <a href="#" class="group hover:">
+            <img src="assets/img/category-page-04-image-card-04.jpg" alt="top" class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]">
+            <h3 class="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
+            <p class="mt-1 text-lg font-medium text-gray-900">$35</p>
+          </a>
+
+    
+        <div class="relative group">
+            <!-- Default Image -->
+            <img src="assets/img/1hover.jpg" alt="Default Image" class="aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]">
+            <!-- Hover Image -->
+            <img src="assets/img/3hover.jpg" alt="Hover Image" class="aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+        </div>
+        <div class="relative group">
+            <!-- Default Image -->
+            <img src="assets/img/1hover.jpg" alt="Default Image" class="aspect-square w-full rounded-lg bg-gray-200 object-cover xl:aspect-[7/8]">
+            <!-- Hover Image -->
+            <img src="assets/img/3hover.jpg" alt="Hover Image" class="aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+        </div>
+        
+      </div>
+    </div>
+</div>
+
+
+
+<img src="assets/img/category-page-04-image-card-01.jpg" alt="Default Image" class="w-96 h-96 object-cover rounded-lg transition duration-500 z-10">
+<img src="assets/img/4hover.jpg" alt="Hover Image" class="w-96 h-96 object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 z-20 transition duration-500">
+
+<!-- search bar end -->
+
+
+      <script>
+        // Toggle mobile menu
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      </script>
     
 </body>
 </html>
