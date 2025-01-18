@@ -5,7 +5,6 @@
 .menu-items {
 	@apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium
 }
-
 .mobile-menu {
     @apply block px-4 py-2 text-gray-300 hover:bg-gray-600 hover:text-white
 }
@@ -20,7 +19,6 @@
 .h-image {
     @apply aspect-square w-full object-cover rounded-lg absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500
 }
-
 .gl-icon {
     color: var(--gl-color-icon);
     display: inline-block;
