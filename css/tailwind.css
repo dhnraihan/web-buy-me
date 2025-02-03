@@ -27,3 +27,6 @@
     vertical-align: text-top;
     width: 24px;
 }
+.text-lg.xl\:text-center.max-md\:text-center {
+	text-align: center;
+}
